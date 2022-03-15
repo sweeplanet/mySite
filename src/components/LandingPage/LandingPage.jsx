@@ -53,7 +53,7 @@ const AnimatedGradientText = styled.h1`
   -webkit-animation: ${hue} 10s infinite linear;
   font-family: "Segoe UI"
   font-feature-settings: "kern";
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 48px;
   overflow-wrap: break-word;

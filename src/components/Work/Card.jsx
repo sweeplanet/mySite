@@ -10,9 +10,9 @@ function Card(props){
     <>
       <div className="card">
         <h2 className="titleP">{props.title}</h2>
-        <h3>{props.company}</h3>
+        <h4>{props.company}</h4>
         <p className="wDesc">{props.description}</p>
-        <h4>Technologies: </h4>
+        <h5>Technologies: </h5>
         <ul className="wDesc">{items}</ul>
       </div>
     </>

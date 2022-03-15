@@ -10,13 +10,13 @@ function Menu(){
 
   return(
     <div className="navbar">
-        <img className = "logo" src={logo} width="50" height="50" />
+        <img className = "logo" src={logo} width="45" height="45" />
           <div className="buttonGroup">
             <Button sx={{
                 color: '#FFFFFF',
                 bgcolor: '#171923',
                 mr: '40px',
-                fontSize: '15px'
+                fontSize: '14px'
               }} style={{textTransform: 'none', fontFamily: 'Segoe UI'}}
               onClick={() => {
                   navigate('/');
@@ -25,7 +25,7 @@ function Menu(){
                 color: '#FFFFFF',
                 bgcolor: '#171923',
                 mr: '40px',
-                fontSize: '15px'
+                fontSize: '14px'
             }} style={{textTransform: 'none', fontFamily: 'Segoe UI'}}
             onClick={() => {
                 navigate('/Work');
@@ -33,7 +33,7 @@ function Menu(){
             <Button sx={{
                 color: '#FFFFFF',
                 bgcolor: '#171923',
-                fontSize: '15px'
+                fontSize: '14px'
             }} style={{textTransform: 'none', fontFamily: 'Segoe UI'}}
             onClick={() => {
                 navigate('/About');

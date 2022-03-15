@@ -34,12 +34,13 @@ p{
 .boxTextMain{
   justify-content: center;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 85px;
 }
 
 .introBox{
   color: #787A91;
-  line-height: 1.6
+  line-height: 1.6;
+  font-size: 14px;
 }
 
 /* .notF{
@@ -81,29 +82,31 @@ p{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-right: 90px;
+  margin-right: 70px;
 }
 
 .card{
-  font-size: 15px;
+  font-size: 14px;
   background-color: #1A202C;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  width: 320px;
 }
 
 .wDesc{
-  font-size: 16px;
+  font-size: 13px;
   max-width: 350px;
   font-weight:normal;
 }
 
 .titleP{
   color: #2FA4FF;
+  font-size: 18px;
 }
 
 .titleW{
-  font-size: 45px;
+  font-size: 40px;
 }
 
 /* About page */
